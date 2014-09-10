@@ -24,6 +24,16 @@ namespace Sorting.UnitTests
             Assert.AreEqual(source, result);
         }
 
+        [Test]
+        public void SingleElementSourceReturnsSingleElement()
+        {
+            int[] source = {2};
+
+            var result = Algorithms.QuickSort.Sort(source);
+
+            Assert.AreEqual(source, result);
+        }
+
         //[Test]
         //public void VerifyShortSequence()
         //{
