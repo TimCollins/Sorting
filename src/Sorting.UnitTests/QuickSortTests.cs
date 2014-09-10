@@ -18,16 +18,16 @@ namespace Sorting.UnitTests
         [Test]
         public void EmptySourceReturnsEmptyResult()
         {
-            int[] source = {};
+            int[] source = { };
             var result = Algorithms.QuickSort.Sort(source);
-            
+
             Assert.AreEqual(source, result);
         }
 
         [Test]
         public void SingleElementSourceReturnsSingleElement()
         {
-            int[] source = {2};
+            int[] source = { 2 };
 
             var result = Algorithms.QuickSort.Sort(source);
 
