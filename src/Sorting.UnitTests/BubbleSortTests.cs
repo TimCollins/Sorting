@@ -1,5 +1,7 @@
 ﻿using System;
 using NUnit.Framework;
+using Sorting.Algorithms;
+using Sorting.UnitTests.TestUtils;
 
 namespace Sorting.UnitTests
 {
@@ -17,7 +19,7 @@ namespace Sorting.UnitTests
         public void EmptySourceReturnsEmptyResult()
         {
             int[] source = { };
-            var result = Algorithms.BubbleSort.Sort(source);
+            var result = BubbleSort.Sort(source);
 
             Assert.AreEqual(source, result);
         }
@@ -27,9 +29,18 @@ namespace Sorting.UnitTests
         {
             int[] source = { 2 };
 
-            var result = Algorithms.BubbleSort.Sort(source);
+            var result = BubbleSort.Sort(source);
 
             Assert.AreEqual(source, result);
+        }
+
+        [Test]
+        public void TestImplementation()
+        {
+            int[] source = {5, 1, 4, 2, 8};
+            int[] result = BubbleSort.Sort(source);
+
+            result.AssertSequenceEqual(1, 2, 4, 5, 8);
         }
     }
 }
