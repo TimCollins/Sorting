@@ -46,8 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="QuickSortTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TestUtils\TestExtensions.cs" />
+    <Compile Include="TestUtils\TestExtensionsTests.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sorting.Algorithms\Sorting.Algorithms.csproj">
+      <Project>{7729582c-f02d-4df6-a071-57e7fd244cd1}</Project>
+      <Name>Sorting.Algorithms</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
