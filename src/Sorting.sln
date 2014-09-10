@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting.UnitTests", "Sorting.UnitTests\Sorting.UnitTests.csproj", "{EC468566-8D02-46AD-A477-C73834FECD4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sorting.Algorithms", "Sorting.Algorithms\Sorting.Algorithms.csproj", "{7729582C-F02D-4DF6-A071-57E7FD244CD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{38823BB9-0438-4ED2-B55A-EB781CC3B563}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC468566-8D02-46AD-A477-C73834FECD4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC468566-8D02-46AD-A477-C73834FECD4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC468566-8D02-46AD-A477-C73834FECD4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC468566-8D02-46AD-A477-C73834FECD4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7729582C-F02D-4DF6-A071-57E7FD244CD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7729582C-F02D-4DF6-A071-57E7FD244CD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7729582C-F02D-4DF6-A071-57E7FD244CD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7729582C-F02D-4DF6-A071-57E7FD244CD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38823BB9-0438-4ED2-B55A-EB781CC3B563}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38823BB9-0438-4ED2-B55A-EB781CC3B563}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38823BB9-0438-4ED2-B55A-EB781CC3B563}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38823BB9-0438-4ED2-B55A-EB781CC3B563}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
